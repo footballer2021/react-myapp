@@ -1,10 +1,11 @@
-import React from 'react';
-import './App.css';
+import Counter from './components/counter';
+//import './App.css';
 
 function App() {
   return (
     <div className="App">
-      Hello World!
+      
+      <Counter />
     </div>
   );
 }
