@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="App">
-      <Counter />
       <Navbar />
+      <Counter />
     </div>
   );
 }

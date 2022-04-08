@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import '../Styles/Counter.css'
 
 const Counter = () =>{
     const [count, setCount] = useState(0);
@@ -10,10 +11,12 @@ const Counter = () =>{
     useEffect(()=>{console.log('Current Count is...',count)},[count]);
 
     return <React.Fragment>
-    <p>現在のカウント数:{count}</p>
-    <button onClick={countUp}>UP</button>
-    <button onClick={countDown}>Down</button>
-    </React.Fragment> 
+        <p>現在のカウント数:{count}</p>
+        <div className='counter-wrapper'>
+            <button onClick={countUp}>UP</button>
+            <button onClick={countDown}>Down</button>
+        </div> 
+        </React.Fragment> 
 }
 
 export default Counter;
