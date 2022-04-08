@@ -1,0 +1,9 @@
+.mainPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainPage h1 {
+  color: #f10f22;
+}
+/*# sourceMappingURL=MainPage.css.map */

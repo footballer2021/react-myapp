@@ -1,0 +1,12 @@
+@use "../Variables/Variables";
+
+.mainPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: Variables.$redColor;
+    }
+}
+

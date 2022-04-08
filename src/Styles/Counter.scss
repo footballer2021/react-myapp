@@ -1,3 +1,5 @@
+@use "../Variables/Variables";
+
 p{
     text-align: center;
 }
@@ -5,4 +7,8 @@ p{
 .counter-wrapper{
     display: flex;
     justify-content: center;
+}
+
+button{
+    @include Variables.buttonStyle(Variables.$blueColor, 25px);
 }
